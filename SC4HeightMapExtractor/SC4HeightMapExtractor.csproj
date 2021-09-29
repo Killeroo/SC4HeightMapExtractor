@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-	<Compile Include="..\SC4Parser\SC4Parser\Constants.cs">
+    <Compile Include="..\SC4Parser\SC4Parser\Constants.cs">
       <Link>SC4Parser\Constants.cs</Link>
     </Compile>
     <Compile Include="..\SC4Parser\SC4Parser\Exceptions.cs">
@@ -81,7 +81,7 @@
     <Compile Include="..\SC4Parser\SC4Parser\DataStructures\NetworkTile2.cs">
       <Link>SC4Parser\DataStructures\NetworkTile2.cs</Link>
     </Compile>
-	<Compile Include="..\SC4Parser\SC4Parser\DataStructures\BridgeNetworkTile.cs">
+    <Compile Include="..\SC4Parser\SC4Parser\DataStructures\BridgeNetworkTile.cs">
       <Link>SC4Parser\DataStructures\BridgeNetworkTile.cs</Link>
     </Compile>
     <Compile Include="..\SC4Parser\SC4Parser\Files\DatabaseDirectoryFile.cs">
@@ -126,7 +126,7 @@
     <Compile Include="..\SC4Parser\SC4Parser\SubFiles\NetworkSubfile2.cs">
       <Link>SC4Parser\Subfiles\NetworkSubfile2.cs</Link>
     </Compile>
-	<Compile Include="..\SC4Parser\SC4Parser\SubFiles\BridgeNetworkSubfile.cs">
+    <Compile Include="..\SC4Parser\SC4Parser\SubFiles\BridgeNetworkSubfile.cs">
       <Link>SC4Parser\Subfiles\BridgeNetworkSubfile.cs</Link>
     </Compile>
     <Compile Include="..\SC4Parser\SC4Parser\Extensions.cs">
