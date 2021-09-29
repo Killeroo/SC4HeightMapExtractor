@@ -30,7 +30,7 @@ namespace SC4HeightMapExtractor
 
                 if (attributes.HasFlag(FileAttributes.Directory))
                 {
-                    paths.AddRange(Directory.GetFiles(arg, ".sc4", SearchOption.AllDirectories));
+                    paths.AddRange(Directory.GetFiles(arg, "*.sc4", SearchOption.AllDirectories));
                 } 
                 else
                 {
