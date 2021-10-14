@@ -56,11 +56,13 @@ namespace SC4HeightMapExtractor
                         regionInfo.TileYLocation);
 
                     string fileData = "";
-                    for (int y = 0; y < regionInfo.CitySizeY; y++)
+                    for (int x = 0; x < regionInfo.CitySizeX; x++)
                     {
-                        for (int x = 0; x < regionInfo.CitySizeX; x++)
+                        for (int y = 0; y < regionInfo.CitySizeY; y++)
                         {
                             fileData += terrainData[x][y];
+                            //Console.WriteLine(terrainData[x][y]);
+                            
                             if (x != regionInfo.CitySizeX - 1)
                             {
                                 fileData += ",";
