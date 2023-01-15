@@ -11,6 +11,13 @@ namespace SC4HeightMapExtractor
     {
         static void Main(string[] args)
         {
+            if (args.Length == 0)
+            {
+                Console.WriteLine("Please specify the paths or files to extract the heightmaps for. For example: \n\n" +
+                    "SC4HeightMapExtractor \"C:\\Users\\Killeroo\\Documents\\SimCity 4\\Regions\\\" \"C:\\Users\\Killeroo\\City - Melan.sc4\"");
+                return;
+            }    
+
             List<string> paths = new List<string>();
             foreach (var arg in args)
             {

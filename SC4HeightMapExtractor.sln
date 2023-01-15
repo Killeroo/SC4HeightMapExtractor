@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31402.337
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC4HeightMapExtractor", "SC4HeightMapExtractor\SC4HeightMapExtractor.csproj", "{A58B2F41-34D9-4B33-B474-28AC37798F94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC4HeightMapExtractor", "SC4HeightMapExtractor.csproj", "{E0649D6D-5F06-456E-8888-D757956602E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A58B2F41-34D9-4B33-B474-28AC37798F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A58B2F41-34D9-4B33-B474-28AC37798F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A58B2F41-34D9-4B33-B474-28AC37798F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A58B2F41-34D9-4B33-B474-28AC37798F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0649D6D-5F06-456E-8888-D757956602E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0649D6D-5F06-456E-8888-D757956602E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0649D6D-5F06-456E-8888-D757956602E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0649D6D-5F06-456E-8888-D757956602E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3BF21F3C-4696-4600-BEE8-8F664BCEA368}
+		SolutionGuid = {94EAADBC-C4C4-4698-93BB-EA97F565DF6D}
 	EndGlobalSection
 EndGlobal
